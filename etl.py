@@ -10,11 +10,11 @@ import psycopg2
 import numpy as np
 import streamlit as st
 
-host = 'localhost'
-port = 5432
-database = 'phonepay'
-username = 'postgres'
-password = 'aravinth8248'
+host = 'xxx'
+port = xxx
+database = 'xxx'
+username = 'xxx'
+password = 'xxxx'
 
 eta = psycopg2.connect(host=host, port=port, database=database, user=username, password=password)
 cursor=eta.cursor()
