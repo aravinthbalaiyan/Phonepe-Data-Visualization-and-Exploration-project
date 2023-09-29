@@ -11,7 +11,7 @@ from PIL import Image
 st.set_page_config(layout='wide')
 
 #connect to postgresql
-aravinth = psycopg2.connect(host = 'localhost',user = 'postgres', password='aravinth8248',port = 5432,database ='phonepay')
+aravinth = psycopg2.connect(host = 'xxx',user = 'xxxx', password='xxxx',port = xxxx,database ='xxxx')
 cursor=aravinth.cursor()
 
 #select the table's and fetching the data
